@@ -16,11 +16,11 @@ Code changed in App.js from
     <Route exact path="/about">
         <About />
     </Route> 
-</Switch> 
+</Switch>] 
 
 to
 
-<Routes>
+[<Routes>
     <Route path="/" element={<><AddTodo addTodo={addTodo} /><Todos todos={todos} onDelete={onDelete} /> </>} />
     <Route path="/about" element={<About />} />
 </Routes>]
