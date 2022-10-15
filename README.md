@@ -4,7 +4,7 @@ Run Home Page in the build instead of index.html to run functionality.
 Deprecated code for react-router given on [the website](https://v5.reactrouter.com/web/guides/quick-start).
 Code changed in App.js from
 
-<Switch>
+<!-- <Switch>
     <Route exact path="/" render={()=>{
         return(
         <>
@@ -16,11 +16,11 @@ Code changed in App.js from
     <Route exact path="/about">
         <About />
     </Route> 
-</Switch> 
+</Switch>  -->
 
 to
 
-<Routes>
+<!-- <Routes>
     <Route path="/" element={<><AddTodo addTodo={addTodo} /><Todos todos={todos} onDelete={onDelete} /> </>} />
     <Route path="/about" element={<About />} />
-</Routes>
+</Routes> -->
